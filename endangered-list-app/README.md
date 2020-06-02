@@ -45,7 +45,7 @@ src
       |__ Region.css
       |__ Footer.css
 
-
+- **Component Indication**
 
 |  Component   |    Type    | State | Props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
@@ -53,6 +53,7 @@ src
 |  Navigation  | Functional |   N   |   N   | _The navigation will provide a link to each of the pages._       |
 |    Footer    | Functional |   N   |   N   | _The footer will provide personal info and social media links._  |
 |   ShowPage   | Functional |   Y   |   Y   | _The showpage will display information retrieved by the API._    |
+|    Region    | Functional |   Y   |   Y   | _The region will display endangered species' regions from API._  |
 
 - **MVP**:
 
