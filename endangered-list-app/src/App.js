@@ -3,7 +3,6 @@ import Endangered from './Endangered.js';
 import Header from './Header.js'
 import Footer from './Footer.js'
 import './App.css'
-import { Link, BrowserRouter } from 'react-router-dom';
 
 
 export default class App extends Component {
@@ -17,9 +16,6 @@ export default class App extends Component {
     return (
       <div className="App">
         <Header />
-        <BrowserRouter>
-          <Link className="home">Home</Link>
-        </BrowserRouter>
         <Endangered />
         <Footer />
       </div>
