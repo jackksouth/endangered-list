@@ -1,18 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
+import './Header.css'
 
-function Header() {
-  return (
-    <div>
-      <header className="App-header">
-        <h1>CRENVU</h1>
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">Regions</a>
-          <a href="#">Conservation</a>
-        </nav>
-      </header>
-    </div>
-  );
+
+export default class Header extends Component {
+
+  render() {
+    return (
+      <div className="header">
+        <h1><center>CRENVU</center></h1>
+      </div>
+    );
+  }
 }
-
-export default Header;

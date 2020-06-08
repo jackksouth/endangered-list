@@ -1,0 +1,53 @@
+
+
+.endangered {
+font-family: sans-serif;
+line-height: 20px;
+text-align: left;
+padding: 50px;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+.name {
+  text-decoration: underline;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.description {
+  margin-bottom: 30px;
+}
+
+
+.status {
+  margin-bottom: 30px;
+}
+
+
+.population {
+  margin-bottom: 30px;
+}
+
+
+.scientific-name {
+  margin-bottom: 30px;
+}
+
+.location {
+  margin-bottom: 30px;
+}
+
+
+.habitat {
+  margin-bottom: 30px;
+}
+
+.endangered img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 750px;
+  margin-bottom: 50px;
+}
