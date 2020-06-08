@@ -1,10 +1,13 @@
-import React from "react";
+import React, { Component } from "react";
+import './Footer.css'
 
-function Footer() {
-  return (
-    <footer className="footer">Footer</footer>
+export default class Footer extends Component {
 
-  )
+  render() {
+    return (
+      <div className="footer">
+        <h1><center>Jack South 2020</center></h1>
+      </div>
+    );
+  }
 }
-
-export default Footer;

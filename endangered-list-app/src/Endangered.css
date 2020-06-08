@@ -1,7 +1,7 @@
 
 
 .endangered {
-font-family: sans-serif;
+font-family: avenir;
 line-height: 20px;
 text-align: left;
 padding: 50px;
@@ -12,7 +12,7 @@ margin-bottom: 30px;
 .name {
   text-decoration: underline;
   margin-bottom: 30px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .description {
@@ -50,4 +50,11 @@ margin-bottom: 30px;
   height: 200px;
   width: 750px;
   margin-bottom: 50px;
+}
+
+.video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
 }

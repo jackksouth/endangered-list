@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Endangered.css'
 import endangered from './images/endangered.png'
+import ReactPlayer from "react-player"
 
 
 export default class Endangered extends Component {
@@ -19,11 +20,13 @@ export default class Endangered extends Component {
     return (
       <div className="endangered">
         <img src={endangered}></img>
-        <h1><center>These are the most well-known animals currently endangered:</center></h1>
+        <ReactPlayer className="video"
+          url="https://www.youtube.com/watch?v=FsX71DHVO8k" />
+        <h1><center>More Information:</center></h1>
         {this.state.species.map(species => (
           <div key={species._id}>
             <div className="name">{species.name}</div>
-            <div className="description">Description: {species.description}</div>
+            <div className="description">{species.description}</div>
             <div className="status">Status: {species.status}</div>
             <div className="population">Population: {species.population}</div>
             <div className="scientific-name">Scientific Name: {species.scientific_name}</div>
