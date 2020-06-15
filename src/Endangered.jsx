@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './Endangered.css'
 import endangered from './images/endangered.png'
 import ReactPlayer from "react-player"
+import axios from "axios"
+
+
 
 
 export default class Endangered extends Component {
@@ -10,10 +13,9 @@ export default class Endangered extends Component {
   };
 
   async componentDidMount() {
-    const response = await fetch("http://www.bloowatch.org/developers/json/species");
-    const data = await response.json();
-    console.log(data);
-    this.setState({ species: data.allSpecies });
+    const response = await axios("http://www.bloowatch.org/developers/json/species");
+    console.log(response);
+    this.setState({ species: response.data.allSpecies });
   }
 
   render() {
