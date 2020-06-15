@@ -13,7 +13,7 @@ export default class Endangered extends Component {
   };
 
   async componentDidMount() {
-    const response = await axios("http://www.bloowatch.org/developers/json/species");
+    const response = await axios("https://www.bloowatch.org/developers/json/species");
     console.log(response);
     this.setState({ species: response.data.allSpecies });
   }
